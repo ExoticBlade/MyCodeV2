@@ -62,13 +62,13 @@ def Divide_Function():
     
 
 #If statements to Call Functions
-if Operation == "1":
+if Operation == "1" or Operation == "addition":
     Addition_Function()
-if Operation == "2":
+if Operation == "2" or Operation == "subtract":
     Subtract_Function()
-if Operation == "3":
+if Operation == "3" or Operation == "multiply":
     Multiply_Function()
-if Operation == "4":
+if Operation == "4" or Operation == "Divide":
     Divide_Function()
 if Operation >str("4"):
     print("\n" + color.BOLD + color.RED + "Error" + color.END + ", That is not a valid option!\n----------------------------------\nQuitting Program...")
